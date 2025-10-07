@@ -26,6 +26,9 @@ public class Device {
     @Column(name = "type")
     private DeviceType type;
 
+    @Column(name = "consumption")
+    private Integer consumption;
+
     @Column(name = "consumption_class")
     private ConsumptionClass consumptionClass;
 
@@ -33,4 +36,10 @@ public class Device {
     // çünkü oradakiler hariç bir değer girilirse tüketim hesaplaması yapılamaz.
     @Column(name = "consumption_classifier_value")
     private Integer consumptionClassifierValue;
+
+    @Column(name = "operate_duration")
+    private Long operateDuration;
+
+    @Column(name = "home_id")
+    private Long homeId;
 }
