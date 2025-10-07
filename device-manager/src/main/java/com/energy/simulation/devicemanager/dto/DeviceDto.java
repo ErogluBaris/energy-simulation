@@ -13,6 +13,8 @@ public class DeviceDto {
     private Long version;
     private String name;
     private DeviceType type;
+    private Integer consumption;
     private ConsumptionClass consumptionClass;
     private Integer consumptionClassifierValue;
+    private Long homeId;
 }
