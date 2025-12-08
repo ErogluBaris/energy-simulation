@@ -10,4 +10,6 @@ public class HomeDto {
     private Long id;
     private Integer version;
     private String name;
+    private Long userId;
 }
+

@@ -12,5 +12,8 @@ public class DeviceConsumptionDto {
     private Long version;
     private DeviceType type;
     private Integer consumptionClassifierValue;
-    private Integer consumptionReferenceValue;
+    private Integer consumptionReferenceMaxValue;
+    private Integer consumptionReferenceMinValue;
+    private Double consumptionEEIRate;
+
 }

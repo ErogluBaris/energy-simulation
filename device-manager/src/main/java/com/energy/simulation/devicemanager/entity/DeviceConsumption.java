@@ -25,6 +25,12 @@ public class DeviceConsumption {
     @Column(name = "consumption_classifier_value")
     private Integer consumptionClassifierValue;
 
-    @Column(name = "consumption_reference_value")
-    private Integer consumptionReferenceValue;
+    @Column(name = "consumption_reference_max_value")
+    private Integer consumptionReferenceMaxValue;
+
+    @Column(name = "consumption_reference_min_value")
+    private Integer consumptionReferenceMinValue;
+
+    @Column(name = "consumption_EEI_rate")
+    private Double consumptionEEIRate;
 }

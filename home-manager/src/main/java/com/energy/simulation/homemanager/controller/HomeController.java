@@ -26,4 +26,5 @@ public class HomeController {
     public HomeDto findById(@PathVariable Long id) {
         return homeService.findById(id);
     }
+
 }

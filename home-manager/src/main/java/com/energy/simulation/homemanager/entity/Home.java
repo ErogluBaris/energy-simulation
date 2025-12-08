@@ -21,4 +21,6 @@ public class Home {
     @Column(name = "name")
     private String name;
 
+    @Column(name = "user_id")
+    private Long userId;
 }
