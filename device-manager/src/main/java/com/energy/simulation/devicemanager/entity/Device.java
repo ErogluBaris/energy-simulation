@@ -32,8 +32,6 @@ public class Device {
     @Column(name = "consumption_class")
     private ConsumptionClass consumptionClass;
 
-    //TODO bu kısım aslında device_consumption tablosundaki değerler çekilerek doldurulmalı bence ui tarafında
-    // çünkü oradakiler hariç bir değer girilirse tüketim hesaplaması yapılamaz.
     @Column(name = "consumption_classifier_value")
     private Integer consumptionClassifierValue;
 

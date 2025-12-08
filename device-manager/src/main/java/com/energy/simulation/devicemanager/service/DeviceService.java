@@ -41,4 +41,8 @@ public class DeviceService {
     public List<DeviceDto> saveAll(List<DeviceDto> deviceDtoList) {
         return mapper.toDtoList(repository.saveAll(mapper.toEntityList(deviceDtoList)));
     }
+
+    public List<DeviceDto> findAllByHomeId(Long homeId) {
+        return mapper.toDtoList(repository.findAllByHomeId(homeId));
+    }
 }
